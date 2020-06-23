@@ -1,1 +1,1 @@
-# intelliproFrontEnd
+# intelliFrontEnd
