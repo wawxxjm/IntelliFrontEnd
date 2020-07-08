@@ -6,13 +6,24 @@
     <body>
         <main class="container">
             <div class="header">
-                <p>Header</p>
+                <ul>
+                <li><a class="active" href="#home">HOME</a><li>
+                <li><a href="#css">CSS</a><li>
+                <li><a href="#javascript">JAVASCRIPT</a><li>
+                </ul>
             </div>
 
         
             <div class="two-block"> 
                 <div class="menu">
-                    <p>Menu</p>
+                    <p>It used to be a thing only Internet Explorer could do (ancient versions) with stuff like -ms-scrollbar-base-color. These do not exist anymore.
+                        Then WebKit-based browser engines got on board with stuff like ::-webkit-scrollbar. That’s what this Alamanac entry mostly covers, as it works across the Safari/Chrome landscape today.
+                        Standards have finally gotten involved, and those styling options are covered by un-prefixed properties like scrollbar-color and scrollbar-width.
+                        Styling scrollbars for the Safari/Chrome world is exposed behind the -webkit vendor prefix.
+                        
+                        This almanac entry is an overview, for a more complete breakdown of working with custom scrollbars, please read this CSS-Tricks article.
+                        
+                        body::-webkit-scrollbar </p>
                 </div>
 
                 <div class="multiple-container">
@@ -29,4 +40,3 @@
         </main>
     </body>
 </html>
-
